@@ -68,6 +68,7 @@ const RoadmapMaker = () => {
   const [roadmapId, setRoadmapId] = useState<any | null>(null);
   const [isstarted, setIsstarted] = useState<boolean>(false);
 
+
   // ===============TOOLS================
   const [openTools, setOpenTools] = useState(false);
   const [timeline, setTimeline] = useState("");
@@ -248,7 +249,7 @@ const RoadmapMaker = () => {
             <TabsList className="grid grid-cols-2 w-full  bg-gray-100 rounded-md">
               <TabsTrigger
                 value="history"
-                className="flex items-center justify-center gap-2 data-[state=active]:bg-slate-800 data-[state=active]:text-white text-sm font-inter py-2 rounded-md transition-all"
+                className="flex items-center justify-center gap-2 data-[state=active]:bg-slate-800 data-[state=active]:text-white text-sm font-inter  rounded-md transition-all"
               >
                 <LuHistory size={18} />
                 History
@@ -256,7 +257,7 @@ const RoadmapMaker = () => {
 
               <TabsTrigger
                 value="suggestions"
-                className="flex items-center justify-center gap-2 data-[state=active]:bg-slate-800 data-[state=active]:text-white text-sm font-inter py-2 rounded-md transition-all"
+                className="flex items-center justify-center gap-2 data-[state=active]:bg-slate-800 data-[state=active]:text-white text-sm font-inter rounded-md transition-all"
               >
                 <Activity size={18} />
                 Suggestions

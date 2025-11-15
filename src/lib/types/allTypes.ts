@@ -157,6 +157,7 @@ interface myRoadmap {
   timeline: string;
   mode: string;
   status: string;   // STATUS - going_on / completed / paused / not_started
+  progress: number; 
 }
 
 // ====================
@@ -179,6 +180,7 @@ export interface Checkpoint {
   subtopics: SubTopic[];     // ← subtopics  here
 }
 
+// table Tracks--
 export interface RoadmapTrack {
   id?: number;
   roadmap_id: number; //FK to roadmap table
