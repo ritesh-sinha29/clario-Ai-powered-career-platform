@@ -8,8 +8,9 @@
 An AI-powered career guidance platform that helps students navigate their career journey from confusion to clarity. Built by **Team ROX** for Build with Gemini .
 
 
-  <img align="center" src="public/Loginpage.png" alt="Login Page" width="600">
-
+  <div align="center"> 
+  <img src="public/Loginpage.png" alt="Login Page" width="600">
+  <div align="left">
 
 ## 🚀 Problem Statement
 
@@ -329,9 +330,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Acknowledgments
 
 - Google Gemini for AI capabilities
-- IIT Bombay Techfest for the platform
 - UNICEF for research data
-- All mentors and early users for feedback
 
 ---
 
